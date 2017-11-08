@@ -14,4 +14,8 @@ urlpatterns = [
 	url(r'^flot/$', views.flot),
 	url(r'^morris/$', views.morris),
 	url(r'^inline/$', views.inline),
+	url(r'^buttons/$', views.buttons),
+	url(r'^general/$', views.general),
+	url(r'^icons/$', views.icons),
+	url(r'^modals/$', views.modals),
 ]
