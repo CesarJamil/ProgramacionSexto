@@ -11,4 +11,7 @@ urlpatterns = [
 	url(r'^fixed/$', views.fixed),
 	url(r'^collapsedSidebar/$', views.collapsedSidebar),
 	url(r'^chartjs/$', views.chartjs),
+	url(r'^flot/$', views.flot),
+	url(r'^morris/$', views.morris),
+	url(r'^inline/$', views.inline),
 ]

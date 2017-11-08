@@ -28,3 +28,12 @@ def collapsedSidebar(request):
 
 def chartjs(request):
 	return render (request, 'Pagina/chartjs.html', {})
+
+def flot(request):
+	return render (request, 'Pagina/flot.html', {})
+
+def morris(request):
+	return render (request, 'Pagina/morris.html', {})
+
+def inline(request):
+	return render (request, 'Pagina/inline.html', {})
