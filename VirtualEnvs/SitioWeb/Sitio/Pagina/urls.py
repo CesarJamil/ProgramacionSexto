@@ -18,4 +18,5 @@ urlpatterns = [
 	url(r'^general/$', views.general),
 	url(r'^icons/$', views.icons),
 	url(r'^modals/$', views.modals),
+	url(r'^sliders/$', views.sliders),
 ]

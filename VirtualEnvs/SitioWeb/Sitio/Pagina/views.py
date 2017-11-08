@@ -46,3 +46,9 @@ def general(request):
 
 def icons(request):
 	return render(request, 'Pagina/icons.html', {})
+
+def modals(request):
+	return render(request, 'Pagina/modals.html', {})
+
+def sliders(request):
+	return render(request, 'Pagina/sliders.html', {})
