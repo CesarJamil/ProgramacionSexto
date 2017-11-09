@@ -52,3 +52,24 @@ def modals(request):
 
 def sliders(request):
 	return render(request, 'Pagina/sliders.html', {})
+
+def timeline(request):
+	return render(request, 'Pagina/timeline.html', {})
+
+def generalElements(request):
+	return render(request, 'Pagina/generalElements.html', {})
+
+def advanced(request):
+	return render(request, 'Pagina/advanced.html', {})
+
+def editors(request):
+	return render(request, 'Pagina/editors.html', {})
+
+def simple(request):
+	return render(request, 'Pagina/simple.html', {})
+
+def data(request):
+	return render(request, 'Pagina/data.html', {})
+
+def invoice(request):
+	return render(request, 'Pagina/invoice.html', {})

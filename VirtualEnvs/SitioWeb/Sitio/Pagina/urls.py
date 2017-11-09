@@ -19,4 +19,12 @@ urlpatterns = [
 	url(r'^icons/$', views.icons),
 	url(r'^modals/$', views.modals),
 	url(r'^sliders/$', views.sliders),
+	url(r'^timeline/$', views.timeline),
+	url(r'^generalElements/$', views.generalElements),
+	url(r'^advanced/$', views.advanced),
+	url(r'^editors/$', views.editors),
+	url(r'^simple/$', views.simple),
+	url(r'^data/$', views.data),
+	url(r'^invoice/$', views.invoice),
+
 ]
